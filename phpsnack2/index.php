@@ -45,7 +45,7 @@
         }
         $randomAd = $activeTrue[rand(0, count($activeTrue)-1)];
 
-        echo '<p><img src="' . $randomAd['image_path'] . '" alt="Random Ad" height="600" width="600" /></p>';
+        echo '<img src="' . $randomAd['image_path'] . '" alt="Random Ad" height="600" width="600" />';
     ?>
 </body>
 </html>
