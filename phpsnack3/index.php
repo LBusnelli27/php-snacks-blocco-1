@@ -11,8 +11,8 @@
     $result = [];
     foreach ($array as $key => $value) {
         $result[$value] = $value;
+        echo $value . ' ==> ' . $value . '<br>';
     }
-    var_dump($result)
 ?>
 
 <!DOCTYPE html>
